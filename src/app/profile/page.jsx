@@ -48,6 +48,8 @@ function profilePage() {
               <button type="button">Edit</button>
             </div>
           </div>
+
+          {/* form stat form here */}
           <form className="grow" onSubmit={handleProfileUpdate}>
             <input
               type="text"
