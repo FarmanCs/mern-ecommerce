@@ -13,9 +13,10 @@ function RegisterPage() {
 
   async function handleSubmit(ev) {
     ev.preventDefault();
-    setCreatingUser(true);
-    setError(false);
-    setCreatedUser(false);
+    // setCreatingUser(true);
+    // setError(false);
+    // setCreatedUser(false);
+    to;
     const { ok } = await fetch("/api/register", {
       method: "POST",
       body: JSON.stringify({ email, password }),
